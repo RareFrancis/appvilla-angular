@@ -1,0 +1,55 @@
+
+.overall{
+    background-color: #f7d9d9;
+}
+
+.passage{
+    color: black;
+   
+}
+.bx{
+    color:rgb(226, 71, 107);
+    padding: 5px;
+    margin-top: 5px;
+    
+}
+
+.con {
+    display: flex;
+    flex-wrap: nowrap; 
+    overflow-x: auto; 
+  
+}
+.card {
+    flex: 0 0 calc(100% - 20px); 
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    max-width: 100%; 
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+    .container {
+        justify-content: space-between; 
+        overflow-x: initial;
+    }
+    .card {
+        flex: 0 0 calc(25% - 20px); 
+    }
+}
+
+.btn:hover {
+    background-color:rgb(226, 71, 107); 
+    color: #fff; 
+    border: 1px solid rgb(226, 71, 107) ;
+}
+
+.bx:hover {
+   background-color: rgb(226, 71, 107);
+    color: #fff; 
+    border: 1px solid rgb(226, 71, 107) ;
+}

@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="card">
+        <h3>Reset Password</h3>
+        <p style="text-align: justify;margin-left: 10px; margin-top: 10px;">Please enter the email address that<br>you used to register, and we will<br>send you alink to reset your password via Email.</p>
+
+        <form style="margin-top: -10px;" [formGroup]="resetForm">
+            <div class="form-group design">
+                <input type="email" placeholder="Email" class="form-control" formControlName="Email">
+                </div>
+                <br>
+                <button (click)="resetpassword(this.resetForm.value)" type="button" class="btn btn-warning sibn text-light mt-3">RESET MY PASSWORD</button>
+        </form>
+        <br>
+        <p style="color: orangered; margin-left: 70px; margin-top: 5px; font-weight: 500;">Return to <a routerLink="/signin" style="color: orangered; font-weight: 500;">Sign In</a></p>
+    </div>
+</div>

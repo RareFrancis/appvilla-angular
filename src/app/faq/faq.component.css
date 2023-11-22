@@ -1,0 +1,45 @@
+/* .overall {
+    margin-bottom: 80px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    cursor: pointer;
+}
+
+.card-header h2 {
+    margin: 0;
+}
+
+.card-body {
+    display: none;
+}
+
+.card-body.active {
+    display: block;
+}
+
+.bx {
+    font-size: 30px;
+} */
+
+/* Media Query for Small Screens */
+/* @media (max-width: 768px) {
+    .card-body {
+        padding: 15px;
+    }
+} */
